@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Reproductor de Canciones</title>
+    <link rel="stylesheet" type="text/css" href="stylos.css">
+</head>
+<body>
+    <h1>Mi Reproductor de Canciones</h1>
+
+    <h2>Agrega tu cancion favorita!!!</h2>
+    <ul id="song-list"></ul>
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar cancion" placeholder="Buscar cancion" aria-label="Buscar Cancion">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+
+    <form id="song-form">
+
+        <label for="id">id:</label>
+        <input type="number" id="id" required>
+
+        <label for="nombre cancion">nombre cancion:</label>
+        <input type="text" id="nombre cancion" required>
+        
+        <label for="artist">Artista:</label>
+        <input type="text" id="artist" required>
+
+        <label for="minutos">minutos:</label>
+        <input type="number" id="minutos" required>
+
+        <label for="segundos">segundos:</label>
+        <input type="number" id="segundos" required>
+        
+        <button type="submit">Agregar Canción</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

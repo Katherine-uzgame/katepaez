@@ -1,0 +1,97 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: purple;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario de búsqueda */
+nav {
+    background-color: #7a8b8e;
+    padding: 10px 0;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+form[role="Buscar"] {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+
+.form-control.me-2 {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn.btn-outline-success {
+    border: none;
+    background-color: #c75cd1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+/* Estilos para el formulario de canciones */
+#song-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#song-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#song-form input[type="text"],
+#song-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#song-form button[type="submit"] {
+    background-color: #c75cd1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#song-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para la lista de canciones */
+#song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#song-list li {
+    margin-bottom: 5px
